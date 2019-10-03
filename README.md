@@ -170,12 +170,14 @@ Configuration de la carte réseau host-only pour qu'elle ai une IP Statique : av
     PREFIX=24                                                              
     GATEWAY=192.168.135.1      
 
+****
+
 ### Ajouter une seconde carte réseau Host-Only
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODQwMzQ0MiwxMDk1Njg0NDQ4LC0xNT
-Q5ODE2OTE5LDIxMjEzMjIwMjYsLTk5NzkxMTQ5OSwtODk1NjUw
-MjMyLC0xOTQwODU3ODE3LC04MzA2MDgxNzAsLTUwNDUyMDYxMC
-wxNDI3MzczMjA4LDU1NTgxNzE4NV19
+eyJoaXN0b3J5IjpbMTI0MTc3NDMxNCwtMjE4NDAzNDQyLDEwOT
+U2ODQ0NDgsLTE1NDk4MTY5MTksMjEyMTMyMjAyNiwtOTk3OTEx
+NDk5LC04OTU2NTAyMzIsLTE5NDA4NTc4MTcsLTgzMDYwODE3MC
+wtNTA0NTIwNjEwLDE0MjczNzMyMDgsNTU1ODE3MTg1XX0=
 -->
