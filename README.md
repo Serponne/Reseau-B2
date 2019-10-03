@@ -25,8 +25,8 @@
            valid_lft forever preferred_lft forever
 ### IP en DHCP
 
-Avec `ip a` on peut remarquer que la prem carte qui est la "NAT"  est en "DHCP" ( `dynamic` )
+Avec `ip a` on peut remarquer que les cartes sont en "DHCP" avec la présence de `dynamic` à côté de l'IP de  chaque cartes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjgzMDU5OTAsMTQyNzM3MzIwOCw1NT
+eyJoaXN0b3J5IjpbLTE2MDExMzAyMDksMTQyNzM3MzIwOCw1NT
 U4MTcxODVdfQ==
 -->
