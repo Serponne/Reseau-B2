@@ -59,8 +59,10 @@ Exemple carte "NAT":
 Cette route est vers le réseau 10.0.2.0, elle est utilisée pour une connexion (externe), la passerelle de cette route est à l'IP 10.0.2.15 et cette IP est portée par enp0s3.
 
 ### Table ARP
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMTQ0MzAxOSwtODk1NjUwMjMyLC0xOT
-QwODU3ODE3LC04MzA2MDgxNzAsLTUwNDUyMDYxMCwxNDI3Mzcz
-MjA4LDU1NTgxNzE4NV19
+eyJoaXN0b3J5IjpbOTg3NzcxMTc1LC04OTU2NTAyMzIsLTE5ND
+A4NTc4MTcsLTgzMDYwODE3MCwtNTA0NTIwNjEwLDE0MjczNzMy
+MDgsNTU1ODE3MTg1XX0=
 -->
