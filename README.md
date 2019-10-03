@@ -247,13 +247,13 @@ Il faut enfin redémarrer la machine virtuelle pour prendre en compte les modifi
     loki@192.168.135.25's password:
     Last login: Fri Oct  4 00:46:36 2019 from 192.168.135.1
     Last login: Fri Oct  4 00:46:36 2019 from 192.168.135.1
-    [loki@localhost ~]$
+    
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTQ5NDIwOCwxNDM4MzIyNDIsLTEzMD
-Q2ODIwNDksLTIxODQwMzQ0MiwxMDk1Njg0NDQ4LC0xNTQ5ODE2
-OTE5LDIxMjEzMjIwMjYsLTk5NzkxMTQ5OSwtODk1NjUwMjMyLC
-0xOTQwODU3ODE3LC04MzA2MDgxNzAsLTUwNDUyMDYxMCwxNDI3
-MzczMjA4LDU1NTgxNzE4NV19
+eyJoaXN0b3J5IjpbMTUzNjkxMTQxNiwxMDk1NDk0MjA4LDE0Mz
+gzMjI0MiwtMTMwNDY4MjA0OSwtMjE4NDAzNDQyLDEwOTU2ODQ0
+NDgsLTE1NDk4MTY5MTksMjEyMTMyMjAyNiwtOTk3OTExNDk5LC
+04OTU2NTAyMzIsLTE5NDA4NTc4MTcsLTgzMDYwODE3MCwtNTA0
+NTIwNjEwLDE0MjczNzMyMDgsNTU1ODE3MTg1XX0=
 -->
