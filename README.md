@@ -126,10 +126,27 @@ C'est bien celle renseigné dans le fichier `/etc/resolv.conf`.
 
 ### Afficher état actuel du firewall
 
+    [root@localhost /]# firewall-cmd --list-all
+    public (active)                            
+      target: default                          
+      icmp-block-inversion: no                 
+      interfaces: enp0s3 enp0s8                
+      sources:                                 
+      services: cockpit dhcpv6-client ssh      
+      ports:                                   
+      protocols:                               
+      masquerade: no                           
+      forward-ports:                           
+      source-ports:                            
+      icmp-blocks:                             
+      rich rules:
+
+Avec cette commande qui affiche globalement l'état du pare feu, onpeut remarquer que les deux interfaces de la machine sont filtrées : enp0s3 et enp0s8
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTc0OTA4NjcsLTE1NDk4MTY5MTksMj
-EyMTMyMjAyNiwtOTk3OTExNDk5LC04OTU2NTAyMzIsLTE5NDA4
-NTc4MTcsLTgzMDYwODE3MCwtNTA0NTIwNjEwLDE0MjczNzMyMD
-gsNTU1ODE3MTg1XX0=
+eyJoaXN0b3J5IjpbMTc4MDMxNjExNSwtMTU0OTgxNjkxOSwyMT
+IxMzIyMDI2LC05OTc5MTE0OTksLTg5NTY1MDIzMiwtMTk0MDg1
+NzgxNywtODMwNjA4MTcwLC01MDQ1MjA2MTAsMTQyNzM3MzIwOC
+w1NTU4MTcxODVdfQ==
 -->
