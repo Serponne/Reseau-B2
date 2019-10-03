@@ -238,13 +238,15 @@ Suite a cela on désactive SElinux qui n'autorise que le port 22, qui est le por
 Et on a plus qu'a ajouter le port 2222 au firewall (pas besoin d'enlever le 22 puisqu'il n'y avait aucuns ports filtrés a la base) :
 
     [root@localhost loki]# firewall-cmd --zone=public --add-port=2222/tcp --permanent
-Warning: ALREADY_ENABLED: 2222:tcp
-success
+    success
+
+Il faut enfin redémarrer la machine virtuelle pour prendre en compte les modifications de SElinux, dans ce sens, le service sshd et le firewall seront aussi reload :
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTkzOTE0OTEsMTQzODMyMjQyLC0xMz
-A0NjgyMDQ5LC0yMTg0MDM0NDIsMTA5NTY4NDQ0OCwtMTU0OTgx
-NjkxOSwyMTIxMzIyMDI2LC05OTc5MTE0OTksLTg5NTY1MDIzMi
-wtMTk0MDg1NzgxNywtODMwNjA4MTcwLC01MDQ1MjA2MTAsMTQy
-NzM3MzIwOCw1NTU4MTcxODVdfQ==
+eyJoaXN0b3J5IjpbMTY0MjgyMjcxNywxNDM4MzIyNDIsLTEzMD
+Q2ODIwNDksLTIxODQwMzQ0MiwxMDk1Njg0NDQ4LC0xNTQ5ODE2
+OTE5LDIxMjEzMjIwMjYsLTk5NzkxMTQ5OSwtODk1NjUwMjMyLC
+0xOTQwODU3ODE3LC04MzA2MDgxNzAsLTUwNDUyMDYxMCwxNDI3
+MzczMjA4LDU1NTgxNzE4NV19
 -->
