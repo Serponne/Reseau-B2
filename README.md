@@ -55,9 +55,10 @@ Voici les information du bail de la carte "Host Only" :
     10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 metric 100
     192.168.135.0/24 dev enp0s8 proto kernel scope link src 192.168.135.3 metric 101 
 
-cette route est vers le réseau XXX (nom + adresse réseau), elle est utilisée pour une connexion (locale|externe), la passerelle de cette route est à l'IP XXX et cette IP est portée par XXX²
+Exemple carte "NAT":
+cette route est vers le réseau 10.0.2.0, elle est utilisée pour une connexion (locale|externe), la passerelle de cette route est à l'IP 10.0.2.15 et cette IP est portée par enp0s3.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NTY1MDIzMiwtMTk0MDg1NzgxNywtOD
-MwNjA4MTcwLC01MDQ1MjA2MTAsMTQyNzM3MzIwOCw1NTU4MTcx
-ODVdfQ==
+eyJoaXN0b3J5IjpbMTY3Nzc4MTExOSwtODk1NjUwMjMyLC0xOT
+QwODU3ODE3LC04MzA2MDgxNzAsLTUwNDUyMDYxMCwxNDI3Mzcz
+MjA4LDU1NTgxNzE4NV19
 -->
