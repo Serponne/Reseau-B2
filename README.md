@@ -48,8 +48,13 @@ Voici les information du bail de la carte "Host Only" :
     LIFETIME=1200
     CLIENTID=01080027353cd0
 
-### Table de routage 
+### Table de routage
+
+[root@localhost NetworkManager]# ip route list
+default via 10.0.2.2 dev enp0s3 proto dhcp metric 100
+10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 metric 100
+192.168.135.0/24 dev enp0s8 proto kernel scope link src 192.168.135.3 metric 101 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMDYwODE3MCwtNTA0NTIwNjEwLDE0Mj
-czNzMyMDgsNTU1ODE3MTg1XX0=
+eyJoaXN0b3J5IjpbMjc1ODkyNjQ4LC04MzA2MDgxNzAsLTUwND
+UyMDYxMCwxNDI3MzczMjA4LDU1NTgxNzE4NV19
 -->
