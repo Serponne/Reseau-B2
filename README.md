@@ -81,10 +81,12 @@ L'ip `192.168.135.1` communique avec l'adresse "MAC" `0a:00:27:00:00:07`
 
 On peut remarquer ici tout les services avec un port en écoute comme par exemple le port "SSH"
 
-### Liste DNS
+### Liste DNS utilisés par la machine
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2NTA1OTM5LC05OTc5MTE0OTksLTg5NT
-Y1MDIzMiwtMTk0MDg1NzgxNywtODMwNjA4MTcwLC01MDQ1MjA2
-MTAsMTQyNzM3MzIwOCw1NTU4MTcxODVdfQ==
+eyJoaXN0b3J5IjpbMjEyMTMyMjAyNiwtOTk3OTExNDk5LC04OT
+U2NTAyMzIsLTE5NDA4NTc4MTcsLTgzMDYwODE3MCwtNTA0NTIw
+NjEwLDE0MjczNzMyMDgsNTU1ODE3MTg1XX0=
 -->
