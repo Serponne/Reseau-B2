@@ -228,9 +228,16 @@ Dans le fichier de configuration du serveur SSH on change le port d'écoute du s
 
 Suite a cela on désactive SElinux qui n'autorise que le port 22, qui est le port basique du service ssh :
 
+    # This file controls the state of SELinux on the system.        
+    # SELINUX= can take one of these three values:                  
+    #     enforcing - SELinux security policy is enforced.          
+    #     permissive - SELinux prints warnings instead of enforcing.
+    #     disabled - No SELinux policy is loaded.                   
+    SELINUX=disabled           
 
+Et on a plus qu'a ajouter le port 2222 au firewall (pas besoin
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzQ0MTIyMSwxNDM4MzIyNDIsLTEzMD
+eyJoaXN0b3J5IjpbMTU4MjI1NzgxNiwxNDM4MzIyNDIsLTEzMD
 Q2ODIwNDksLTIxODQwMzQ0MiwxMDk1Njg0NDQ4LC0xNTQ5ODE2
 OTE5LDIxMjEzMjIwMjYsLTk5NzkxMTQ5OSwtODk1NjUwMjMyLC
 0xOTQwODU3ODE3LC04MzA2MDgxNzAsLTUwNDUyMDYxMCwxNDI3
