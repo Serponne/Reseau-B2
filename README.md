@@ -147,10 +147,14 @@ Avec cette commande qui affiche globalement l'état du pare feu, onpeut remarque
 
 Cette commande ne retourne rien, on peut en déduire que aucuns ports ne sont filtrés sur cette VM pour le moment.
 
+## II. Edit configuration
+
+### Configuration cartes réseau
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MzI3OTI2LC0xNTQ5ODE2OTE5LDIxMj
-EzMjIwMjYsLTk5NzkxMTQ5OSwtODk1NjUwMjMyLC0xOTQwODU3
-ODE3LC04MzA2MDgxNzAsLTUwNDUyMDYxMCwxNDI3MzczMjA4LD
-U1NTgxNzE4NV19
+eyJoaXN0b3J5IjpbMTA5NTY4NDQ0OCwtMTU0OTgxNjkxOSwyMT
+IxMzIyMDI2LC05OTc5MTE0OTksLTg5NTY1MDIzMiwtMTk0MDg1
+NzgxNywtODMwNjA4MTcwLC01MDQ1MjA2MTAsMTQyNzM3MzIwOC
+w1NTU4MTcxODVdfQ==
 -->
