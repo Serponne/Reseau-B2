@@ -79,9 +79,12 @@ L'ip `192.168.135.1` communique avec l'adresse "MAC" `0a:00:27:00:00:07`
     tcp              ESTAB              0                  36                                     192.168.135.3:22                             192.168.135.1:18435              users:(("sshd",pid=1508,fd=5),("sshd",pid=1504,fd=5))
     tcp              LISTEN             0                  128                                             [::]:22                                      [::]:*                  users:(("sshd",pid=743,fd=8))
 
+On peut remarquer ici tout les services avec un port en écoute comme par exemple le port "SSH"
+
 ### Liste DNS
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzE5ODcyODAsLTk5NzkxMTQ5OSwtOD
-k1NjUwMjMyLC0xOTQwODU3ODE3LC04MzA2MDgxNzAsLTUwNDUy
-MDYxMCwxNDI3MzczMjA4LDU1NTgxNzE4NV19
+eyJoaXN0b3J5IjpbNzk2NTA1OTM5LC05OTc5MTE0OTksLTg5NT
+Y1MDIzMiwtMTk0MDg1NzgxNywtODMwNjA4MTcwLC01MDQ1MjA2
+MTAsMTQyNzM3MzIwOCw1NTU4MTcxODVdfQ==
 -->
