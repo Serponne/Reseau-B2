@@ -213,9 +213,12 @@ Et avec un `ip a`
         inet6 fe80::d0e9:9102:8f2f:64c6/64 scope link noprefixroute
            valid_lft forever preferred_lft forever
 
+### Serveur SSH 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQ2ODIwNDksLTIxODQwMzQ0MiwxMD
-k1Njg0NDQ4LC0xNTQ5ODE2OTE5LDIxMjEzMjIwMjYsLTk5Nzkx
-MTQ5OSwtODk1NjUwMjMyLC0xOTQwODU3ODE3LC04MzA2MDgxNz
-AsLTUwNDUyMDYxMCwxNDI3MzczMjA4LDU1NTgxNzE4NV19
+eyJoaXN0b3J5IjpbMTQzODMyMjQyLC0xMzA0NjgyMDQ5LC0yMT
+g0MDM0NDIsMTA5NTY4NDQ0OCwtMTU0OTgxNjkxOSwyMTIxMzIy
+MDI2LC05OTc5MTE0OTksLTg5NTY1MDIzMiwtMTk0MDg1NzgxNy
+wtODMwNjA4MTcwLC01MDQ1MjA2MTAsMTQyNzM3MzIwOCw1NTU4
+MTcxODVdfQ==
 -->
