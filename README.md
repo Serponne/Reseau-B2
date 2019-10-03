@@ -33,9 +33,9 @@ On trouve dans le dossier `/NetworkManager` les deux baux :
     [root@localhost NetworkManager]# ls
     internal-0315ec43-c03d-3935-b5c9-9b9fcbb7e7de-enp0s8.lease  internal-b3cd966e-ca92-47c7-9c56-b4fc5ad6311b-enp0s3.lease  NetworkManager-intern.conf  NetworkManager.state  secret_key  timestamps
 
-Pour la carte "NAT" on a : internal-0315ec43-c03d-3935-b5c9-9b9fcbb7e7de-enp0s8.lease
-Pour la carte "Host Only" on a : internal-b3cd966e-ca92-47c7-9c56-b4fc5ad6311b-enp0s3.lease
+Pour la carte "NAT" on a : `internal-0315ec43-c03d-3935-b5c9-9b9fcbb7e7de-enp0s8.lease`
+Pour la carte "Host Only" on a : `internal-b3cd966e-ca92-47c7-9c56-b4fc5ad6311b-enp0s3.lease`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzY5NTQ2MiwtNTA0NTIwNjEwLDE0Mj
-czNzMyMDgsNTU1ODE3MTg1XX0=
+eyJoaXN0b3J5IjpbLTEyNTU3NjI2MjIsLTUwNDUyMDYxMCwxND
+I3MzczMjA4LDU1NTgxNzE4NV19
 -->
