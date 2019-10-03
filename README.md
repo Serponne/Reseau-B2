@@ -37,8 +37,19 @@ Pour la carte "NAT" on a : `internal-0315ec43-c03d-3935-b5c9-9b9fcbb7e7de-enp0s8
 Pour la carte "Host Only" on a : `internal-b3cd966e-ca92-47c7-9c56-b4fc5ad6311b-enp0s3.lease`
 
 Voici les information du bail de la carte "Host Only" :
+
+     [root@localhost NetworkManager]# cat internal-0315ec43-c03d-3935-b5c9-9b9fcbb7e7de-enp0s8.lease
+    # This is private data. Do not parse.
+    ADDRESS=192.168.135.3
+    NETMASK=255.255.255.0
+    SERVER_ADDRESS=192.168.135.2
+    T1=600
+    T2=1050
+    LIFETIME=1200
+    CLIENTID=01080027353cd0
+
 ### Table de routage 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTczMjk1MywtNTA0NTIwNjEwLDE0Mj
+eyJoaXN0b3J5IjpbLTgzMDYwODE3MCwtNTA0NTIwNjEwLDE0Mj
 czNzMyMDgsNTU1ODE3MTg1XX0=
 -->
