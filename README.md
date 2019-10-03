@@ -23,8 +23,10 @@
            valid_lft forever preferred_lft forever
         inet6 fe80::90d3:2a4d:6c75:ffea/64 scope link noprefixroute
            valid_lft forever preferred_lft forever
-###
+### IP en DHCP
+
+Avec `ip a` on peut remarquer que la première carte qui est la "NAT"  est en "DHCP" ( 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTMyMDcyMDcsMTQyNzM3MzIwOCw1NT
-U4MTcxODVdfQ==
+eyJoaXN0b3J5IjpbMTI4NjI4NzI5OCwxNDI3MzczMjA4LDU1NT
+gxNzE4NV19
 -->
