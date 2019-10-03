@@ -35,7 +35,9 @@ On trouve dans le dossier `/NetworkManager` les deux baux :
 
 Pour la carte "NAT" on a : `internal-0315ec43-c03d-3935-b5c9-9b9fcbb7e7de-enp0s8.lease`
 Pour la carte "Host Only" on a : `internal-b3cd966e-ca92-47c7-9c56-b4fc5ad6311b-enp0s3.lease`
+
+### Table de routage
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTU3NjI2MjIsLTUwNDUyMDYxMCwxND
-I3MzczMjA4LDU1NTgxNzE4NV19
+eyJoaXN0b3J5IjpbLTgwODQ0NjY0NSwtNTA0NTIwNjEwLDE0Mj
+czNzMyMDgsNTU1ODE3MTg1XX0=
 -->
