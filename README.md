@@ -58,8 +58,9 @@ Voici les information du bail de la carte "Host Only" :
 Exemple carte "NAT":
 Cette route est vers le réseau 10.0.2.0, elle est utilisée pour une connexion (externe), la passerelle de cette route est à l'IP 10.0.2.15 et cette IP est portée par enp0s3.
 
+### Table ARP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTcyMDgyMSwtODk1NjUwMjMyLC0xOT
+eyJoaXN0b3J5IjpbMjAyMTQ0MzAxOSwtODk1NjUwMjMyLC0xOT
 QwODU3ODE3LC04MzA2MDgxNzAsLTUwNDUyMDYxMCwxNDI3Mzcz
 MjA4LDU1NTgxNzE4NV19
 -->
