@@ -69,8 +69,19 @@ L'ip `192.168.135.1` communique avec l'adresse "MAC" `0a:00:27:00:00:07`
 
 ### Liste ports en écoute
 
+    [root@localhost /]# ss -paunt
+    Netid            State              Recv-Q             Send-Q                                 Local Address:Port                            Peer Address:Port
+    udp              UNCONN             0                  0                                          127.0.0.1:323                                  0.0.0.0:*                  users:(("chronyd",pid=705,fd=6))
+    udp              UNCONN             0                  0                               192.168.135.3%enp0s8:68                                   0.0.0.0:*                  users:(("NetworkManager",pid=731,fd=22))
+    udp              UNCONN             0                  0                                   10.0.2.15%enp0s3:68                                   0.0.0.0:*                  users:(("NetworkManager",pid=731,fd=18))
+    udp              UNCONN             0                  0                                              [::1]:323                                     [::]:*                  users:(("chronyd",pid=705,fd=7))
+    tcp              LISTEN             0                  128                                          0.0.0.0:22                                   0.0.0.0:*                  users:(("sshd",pid=743,fd=6))
+    tcp              ESTAB              0                  36                                     192.168.135.3:22                             192.168.135.1:18435              users:(("sshd",pid=1508,fd=5),("sshd",pid=1504,fd=5))
+    tcp              LISTEN             0                  128                                             [::]:22                                      [::]:*                  users:(("sshd",pid=743,fd=8))
+
+### Liste DNS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NzkxMTQ5OSwtODk1NjUwMjMyLC0xOT
-QwODU3ODE3LC04MzA2MDgxNzAsLTUwNDUyMDYxMCwxNDI3Mzcz
-MjA4LDU1NTgxNzE4NV19
+eyJoaXN0b3J5IjpbLTEyMzE5ODcyODAsLTk5NzkxMTQ5OSwtOD
+k1NjUwMjMyLC0xOTQwODU3ODE3LC04MzA2MDgxNzAsLTUwNDUy
+MDYxMCwxNDI3MzczMjA4LDU1NTgxNzE4NV19
 -->
