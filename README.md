@@ -55,8 +55,8 @@ Voici les information du bail de la carte "Host Only" :
     10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 metric 100
     192.168.135.0/24 dev enp0s8 proto kernel scope link src 192.168.135.3 metric 101 
 
-Cette route est vers le réseau 10.0.2.15 (nom + adresse réseau), elle est utilisée pour une connexion (locale|externe), la passerelle de cette route est à l'IP XXX et cette IP est portée par XXX
+Cette route est vers le réseau enp0s8, elle est utilisée pour une connexion (locale|externe), la passerelle de cette route est à l'IP 10.0.2.0 et cette IP est portée par XXX
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzgyMjQ3OTUsLTgzMDYwODE3MCwtNT
+eyJoaXN0b3J5IjpbLTE5NDA4NTc4MTcsLTgzMDYwODE3MCwtNT
 A0NTIwNjEwLDE0MjczNzMyMDgsNTU1ODE3MTg1XX0=
 -->
