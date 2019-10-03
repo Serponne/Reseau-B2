@@ -60,9 +60,14 @@ Cette route est vers le réseau 10.0.2.0, elle est utilisée pour une connexion 
 
 ### Table ARP
 
+    [root@localhost /]# ip neighbor show
+    192.168.135.1 dev enp0s8 lladdr 0a:00:27:00:00:07 DELAY
+    192.168.135.2 dev enp0s8 lladdr 08:00:27:2e:44:ea STALE
+    10.0.2.2 dev enp0s3 lladdr 52:54:00:12:35:02 STALE
 
+L'ip `192.168.135.1` communique avec l'adresse "MAC" 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg3NzcxMTc1LC04OTU2NTAyMzIsLTE5ND
+eyJoaXN0b3J5IjpbNjE1MzUwMDA4LC04OTU2NTAyMzIsLTE5ND
 A4NTc4MTcsLTgzMDYwODE3MCwtNTA0NTIwNjEwLDE0MjczNzMy
 MDgsNTU1ODE3MTg1XX0=
 -->
