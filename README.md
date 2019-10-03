@@ -215,11 +215,24 @@ Et avec un `ip a`
 
 ### Serveur SSH 
 
-Dans le fichier de configuration du serveur SSH on change le port 
+Dans le fichier de configuration du serveur SSH on change le port d'écoute du service sshd en décommentant la pigne avec le port et en remplacent "22" par "2222" :
+
+    # If you want to change the port on a SELinux system, you have to tell
+    # SELinux about this change.                                          
+    # semanage port -a -t ssh_port_t -p tcp #PORTNUMBER                   
+    #                                                                     
+    Port 2222                                                             
+    #AddressFamily any                                                    
+    #ListenAddress 0.0.0.0                                                
+    #ListenAddress ::         
+
+Suite a cela on désactive SElinux qui n'autorise que le port 22, qui est le port basique du service ssh :
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgwODE5Nzg4LDE0MzgzMjI0MiwtMTMwND
-Y4MjA0OSwtMjE4NDAzNDQyLDEwOTU2ODQ0NDgsLTE1NDk4MTY5
-MTksMjEyMTMyMjAyNiwtOTk3OTExNDk5LC04OTU2NTAyMzIsLT
-E5NDA4NTc4MTcsLTgzMDYwODE3MCwtNTA0NTIwNjEwLDE0Mjcz
-NzMyMDgsNTU1ODE3MTg1XX0=
+eyJoaXN0b3J5IjpbMTQwNzQ0MTIyMSwxNDM4MzIyNDIsLTEzMD
+Q2ODIwNDksLTIxODQwMzQ0MiwxMDk1Njg0NDQ4LC0xNTQ5ODE2
+OTE5LDIxMjEzMjIwMjYsLTk5NzkxMTQ5OSwtODk1NjUwMjMyLC
+0xOTQwODU3ODE3LC04MzA2MDgxNzAsLTUwNDUyMDYxMCwxNDI3
+MzczMjA4LDU1NTgxNzE4NV19
 -->
