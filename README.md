@@ -142,10 +142,8 @@ C'est bien celle renseigné dans le fichier `/etc/resolv.conf`.
       rich rules:
 
 Avec cette commande qui affiche globalement l'état du pare feu, onpeut remarquer que les deux interfaces de la machine sont filtrées : enp0s3 et enp0s8
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDMxNjExNSwtMTU0OTgxNjkxOSwyMT
+eyJoaXN0b3J5IjpbMTk1MjQ2NTUyNywtMTU0OTgxNjkxOSwyMT
 IxMzIyMDI2LC05OTc5MTE0OTksLTg5NTY1MDIzMiwtMTk0MDg1
 NzgxNywtODMwNjA4MTcwLC01MDQ1MjA2MTAsMTQyNzM3MzIwOC
 w1NTU4MTcxODVdfQ==
