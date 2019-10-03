@@ -116,9 +116,10 @@ Adresses IP associées au nom de domaine "www.reddit.com"
     ;; WHEN: jeu. oct. 03 23:25:11 CEST 2019
     ;; MSG SIZE  rcvd: 94
 
+Icile nom de domaine du "DNS" utilisé par reddit.com est `reddit.map.fastly.net.`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDI1NTY3MSwtMTU0OTgxNjkxOSwyMT
-IxMzIyMDI2LC05OTc5MTE0OTksLTg5NTY1MDIzMiwtMTk0MDg1
-NzgxNywtODMwNjA4MTcwLC01MDQ1MjA2MTAsMTQyNzM3MzIwOC
-w1NTU4MTcxODVdfQ==
+eyJoaXN0b3J5IjpbLTExOTAyMDkxMDQsLTE1NDk4MTY5MTksMj
+EyMTMyMjAyNiwtOTk3OTExNDk5LC04OTU2NTAyMzIsLTE5NDA4
+NTc4MTcsLTgzMDYwODE3MCwtNTA0NTIwNjEwLDE0MjczNzMyMD
+gsNTU1ODE3MTg1XX0=
 -->
