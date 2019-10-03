@@ -26,7 +26,9 @@
 ### IP en DHCP
 
 Avec `ip a` on peut remarquer que les cartes sont en "DHCP" avec la présence de `dynamic` à côté de l'IP de  chaque cartes
+****
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDUyMDYxMCwxNDI3MzczMjA4LDU1NT
-gxNzE4NV19
+eyJoaXN0b3J5IjpbLTI5MzU0ODM1OCwtNTA0NTIwNjEwLDE0Mj
+czNzMyMDgsNTU1ODE3MTg1XX0=
 -->
