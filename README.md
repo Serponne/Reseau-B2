@@ -120,10 +120,16 @@ Icile nom de domaine du "DNS" utilisé par www.reddit.com est `reddit.map.fastly
 
 On peut remarquer que le "DNS" utilisé par notre machine est le bon :
 
+    ;; SERVER: 192.168.1.254#53(192.168.1.254)
+
+C'est bien celle renseigné dans le fichier `/etc/resolv.conf`.
+
+### Afficher état actuel du firewall
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1NDgxMzU1LC0xNTQ5ODE2OTE5LDIxMj
-EzMjIwMjYsLTk5NzkxMTQ5OSwtODk1NjUwMjMyLC0xOTQwODU3
-ODE3LC04MzA2MDgxNzAsLTUwNDUyMDYxMCwxNDI3MzczMjA4LD
-U1NTgxNzE4NV19
+eyJoaXN0b3J5IjpbLTEwMTc0OTA4NjcsLTE1NDk4MTY5MTksMj
+EyMTMyMjAyNiwtOTk3OTExNDk5LC04OTU2NTAyMzIsLTE5NDA4
+NTc4MTcsLTgzMDYwODE3MCwtNTA0NTIwNjEwLDE0MjczNzMyMD
+gsNTU1ODE3MTg1XX0=
 -->
