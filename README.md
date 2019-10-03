@@ -90,9 +90,35 @@ On peut remarquer ici tout les services avec un port en écoute comme par exempl
 
 Voici le "DNS" utilisé par ma carte "host only"
 
+****
+
+Adresses IP associées au nom de domaine "www.reddit.com"
+
+    [root@localhost /]# dig www.reddit.com
+    
+    ; <<>> DiG 9.11.4-P2-RedHat-9.11.4-17.P2.el8_0.1 <<>> www.reddit.com
+    ;; global options: +cmd
+    ;; Got answer:
+    ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6020
+    ;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+    
+    ;; OPT PSEUDOSECTION:
+    ; EDNS: version: 0, flags:; udp: 4096
+    ;; QUESTION SECTION:
+    ;www.reddit.com.                        IN      A
+    
+    ;; ANSWER SECTION:
+    www.reddit.com.         135     IN      CNAME   reddit.map.fastly.net.
+    reddit.map.fastly.net.  5       IN      A       151.101.121.140
+    
+    ;; Query time: 25 msec
+    ;; SERVER: 192.168.1.254#53(192.168.1.254)
+    ;; WHEN: jeu. oct. 03 23:25:11 CEST 2019
+    ;; MSG SIZE  rcvd: 94
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODE3ODkwMzMsLTE1NDk4MTY5MTksMj
-EyMTMyMjAyNiwtOTk3OTExNDk5LC04OTU2NTAyMzIsLTE5NDA4
-NTc4MTcsLTgzMDYwODE3MCwtNTA0NTIwNjEwLDE0MjczNzMyMD
-gsNTU1ODE3MTg1XX0=
+eyJoaXN0b3J5IjpbMTMwMDI1NTY3MSwtMTU0OTgxNjkxOSwyMT
+IxMzIyMDI2LC05OTc5MTE0OTksLTg5NTY1MDIzMiwtMTk0MDg1
+NzgxNywtODMwNjA4MTcwLC01MDQ1MjA2MTAsMTQyNzM3MzIwOC
+w1NTU4MTcxODVdfQ==
 -->
