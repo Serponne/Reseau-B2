@@ -55,20 +55,9 @@ Voici les information du bail de la carte "Host Only" :
     10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 metric 100
     192.168.135.0/24 dev enp0s8 proto kernel scope link src 192.168.135.3 metric 101 
 
-
-
-[root@localhost /]# route
-Table de routage IP du noyau
-Destination     Passerelle      Genmask         Indic Metric Ref    Use Iface
-default         _gateway        0.0.0.0         UG    100    0        0 enp0s3
-10.0.2.0        0.0.0.0         255.255.255.0   U     100    0        0 enp0s3
-192.168.135.0   0.0.0.0         255.255.255.0   U     101    0        0 enp0s8
-[root@localhost /]# ip route show
-default via 10.0.2.2 dev enp0s3 proto dhcp metric 100
-10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 metric 100
-192.168.135.0/24 dev enp0s8 proto kernel scope link src 192.168.135.3 metric 101
+cette route est vers le réseau XXX (nom + adresse réseau), elle est utilisée pour une connexion (locale|externe), la passerelle de cette route est à l'IP XXX et cette IP est portée par XXX²
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDkzMDEzNDUsLTE5NDA4NTc4MTcsLT
-gzMDYwODE3MCwtNTA0NTIwNjEwLDE0MjczNzMyMDgsNTU1ODE3
-MTg1XX0=
+eyJoaXN0b3J5IjpbLTg5NTY1MDIzMiwtMTk0MDg1NzgxNywtOD
+MwNjA4MTcwLC01MDQ1MjA2MTAsMTQyNzM3MzIwOCw1NTU4MTcx
+ODVdfQ==
 -->
