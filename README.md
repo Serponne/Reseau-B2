@@ -181,7 +181,7 @@ Et avec un `ip a`
 
 ### Ajouter une seconde carte réseau Host-Only
 
-Configuration de la carte réseau host-only pour qu'elle ai une IP Statique : avec l'aide de `nmtui`
+Configuration de la deuxième carte réseau host-only pour qu'elle ai une IP Statique : avec l'aide de `nmtui`
 
     [root@localhost network-scripts]# cat ifcfg-enp0s9
     HWADDR=08:00:27:DE:CB:86
@@ -204,9 +204,18 @@ Configuration de la carte réseau host-only pour qu'elle ai une IP Statique : av
     ONBOOT=yes
     AUTOCONNECT_PRIORITY=-999
 
+Et avec un `ip a`  
+
+    4: enp0s9: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+        link/ether 08:00:27:de:cb:86 brd ff:ff:ff:ff:ff:ff
+        inet 192.168.17.25/24 brd 192.168.17.255 scope global noprefixroute enp0s9
+           valid_lft forever preferred_lft forever
+        inet6 fe80::d0e9:9102:8f2f:64c6/64 scope link noprefixroute
+           valid_lft forever preferred_lft forever
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3NjYzMDYwLC0yMTg0MDM0NDIsMTA5NT
-Y4NDQ0OCwtMTU0OTgxNjkxOSwyMTIxMzIyMDI2LC05OTc5MTE0
-OTksLTg5NTY1MDIzMiwtMTk0MDg1NzgxNywtODMwNjA4MTcwLC
-01MDQ1MjA2MTAsMTQyNzM3MzIwOCw1NTU4MTcxODVdfQ==
+eyJoaXN0b3J5IjpbLTEzMDQ2ODIwNDksLTIxODQwMzQ0MiwxMD
+k1Njg0NDQ4LC0xNTQ5ODE2OTE5LDIxMjEzMjIwMjYsLTk5Nzkx
+MTQ5OSwtODk1NjUwMjMyLC0xOTQwODU3ODE3LC04MzA2MDgxNz
+AsLTUwNDUyMDYxMCwxNDI3MzczMjA4LDU1NTgxNzE4NV19
 -->
