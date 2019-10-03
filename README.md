@@ -151,10 +151,31 @@ Cette commande ne retourne rien, on peut en déduire que aucuns ports ne sont fi
 
 ### Configuration cartes réseau
 
+Configuration de la carte réseau host-only pour qu'elle ai une IP Statique : avec l'aide de `nmtui`
+
+    [root@localhost loki]# cat /etc/sysconfig/network-scripts/ifcfg-enp0s8 
+    TYPE=Ethernet                                                          
+    BOOTPROTO=none                                                         
+    NAME=enp0s8                                                            
+    UUID=0315ec43-c03d-3935-b5c9-9b9fcbb7e7de                              
+    ONBOOT=yes                                                             
+                                                                           
+    PROXY_METHOD=none                                                      
+    BROWSER_ONLY=no                                                        
+    DEFROUTE=yes                                                           
+    IPV4_FAILURE_FATAL=no                                                  
+    IPV6INIT=no                                                            
+    DEVICE=enp0s8                                                          
+    IPADDR=192.168.135.25                                                  
+    PREFIX=24                                                              
+    GATEWAY=192.168.135.1      
+
+### Ajouter une seconde carte réseau Host-Only
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTY4NDQ0OCwtMTU0OTgxNjkxOSwyMT
-IxMzIyMDI2LC05OTc5MTE0OTksLTg5NTY1MDIzMiwtMTk0MDg1
-NzgxNywtODMwNjA4MTcwLC01MDQ1MjA2MTAsMTQyNzM3MzIwOC
-w1NTU4MTcxODVdfQ==
+eyJoaXN0b3J5IjpbLTIxODQwMzQ0MiwxMDk1Njg0NDQ4LC0xNT
+Q5ODE2OTE5LDIxMjEzMjIwMjYsLTk5NzkxMTQ5OSwtODk1NjUw
+MjMyLC0xOTQwODU3ODE3LC04MzA2MDgxNzAsLTUwNDUyMDYxMC
+wxNDI3MzczMjA4LDU1NTgxNzE4NV19
 -->
