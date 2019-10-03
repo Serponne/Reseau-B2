@@ -89,9 +89,10 @@ On peut remarquer ici tout les services avec un port en écoute comme par exempl
     nameserver 192.168.1.254
 
 Voici le "DNS" utilisé par ma carte "host only"
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDk4MTY5MTksMjEyMTMyMjAyNiwtOT
-k3OTExNDk5LC04OTU2NTAyMzIsLTE5NDA4NTc4MTcsLTgzMDYw
-ODE3MCwtNTA0NTIwNjEwLDE0MjczNzMyMDgsNTU1ODE3MTg1XX
-0=
+eyJoaXN0b3J5IjpbLTEyODE3ODkwMzMsLTE1NDk4MTY5MTksMj
+EyMTMyMjAyNiwtOTk3OTExNDk5LC04OTU2NTAyMzIsLTE5NDA4
+NTc4MTcsLTgzMDYwODE3MCwtNTA0NTIwNjEwLDE0MjczNzMyMD
+gsNTU1ODE3MTg1XX0=
 -->
