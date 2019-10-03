@@ -28,8 +28,12 @@
 Avec `ip a` on peut remarquer que les cartes sont en "DHCP" avec la présence de `dynamic` à côté de l'IP de  chaque cartes
 
 ****
+On trouve dans le dossier `/NetworkManager` les deux baux :
+
+    [root@localhost NetworkManager]# ls
+internal-0315ec43-c03d-3935-b5c9-9b9fcbb7e7de-enp0s8.lease  internal-b3cd966e-ca92-47c7-9c56-b4fc5ad6311b-enp0s3.lease  NetworkManager-intern.conf  NetworkManager.state  secret_key  timestamps
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyMzYyNDcyLC01MDQ1MjA2MTAsMTQyNz
-M3MzIwOCw1NTU4MTcxODVdfQ==
+eyJoaXN0b3J5IjpbMjAyODc4MTgxNSwtNTA0NTIwNjEwLDE0Mj
+czNzMyMDgsNTU1ODE3MTg1XX0=
 -->
