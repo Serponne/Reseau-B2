@@ -242,11 +242,17 @@ Et on a plus qu'a ajouter le port 2222 au firewall (pas besoin d'enlever le 22 p
 
 Il faut enfin redémarrer la machine virtuelle pour prendre en compte les modifications de SElinux, dans ce sens, le service sshd et le firewall seront aussi reload :
 
+    C:\Users\marcb (master -> origin)
+    λ ssh loki@192.168.135.25 -p 2222
+    loki@192.168.135.25's password:
+    Last login: Fri Oct  4 00:46:36 2019 from 192.168.135.1
+    Last login: Fri Oct  4 00:46:36 2019 from 192.168.135.1
+    [loki@localhost ~]$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MjgyMjcxNywxNDM4MzIyNDIsLTEzMD
-Q2ODIwNDksLTIxODQwMzQ0MiwxMDk1Njg0NDQ4LC0xNTQ5ODE2
-OTE5LDIxMjEzMjIwMjYsLTk5NzkxMTQ5OSwtODk1NjUwMjMyLC
-0xOTQwODU3ODE3LC04MzA2MDgxNzAsLTUwNDUyMDYxMCwxNDI3
-MzczMjA4LDU1NTgxNzE4NV19
+eyJoaXN0b3J5IjpbLTE0NDkwMTkyNDYsMTQzODMyMjQyLC0xMz
+A0NjgyMDQ5LC0yMTg0MDM0NDIsMTA5NTY4NDQ0OCwtMTU0OTgx
+NjkxOSwyMTIxMzIyMDI2LC05OTc5MTE0OTksLTg5NTY1MDIzMi
+wtMTk0MDg1NzgxNywtODMwNjA4MTcwLC01MDQ1MjA2MTAsMTQy
+NzM3MzIwOCw1NTU4MTcxODVdfQ==
 -->
