@@ -19,7 +19,7 @@
            valid_lft forever preferred_lft forever
     3: enp0s8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
         link/ether 08:00:27:35:3c:d0 brd ff:ff:ff:ff:ff:ff
-        inet 192.168.135.10/24 brd 192.168.135.255 scope global noprefixroute enp0s8
+        inet 192.168.135.56/24 brd 192.168.135.255 scope global dynamic noprefixroute enp0s8
            valid_lft forever preferred_lft forever
         inet6 fe80::90d3:2a4d:6c75:ffea/64 scope link noprefixroute
            valid_lft forever preferred_lft forever
@@ -27,6 +27,6 @@
 
 Avec `ip a` on peut remarquer que les cartes sont en "DHCP" avec la présence de `dynamic` à côté de l'IP de  chaque cartes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDExMzAyMDksMTQyNzM3MzIwOCw1NT
-U4MTcxODVdfQ==
+eyJoaXN0b3J5IjpbLTUwNDUyMDYxMCwxNDI3MzczMjA4LDU1NT
+gxNzE4NV19
 -->
